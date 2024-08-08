@@ -6,8 +6,6 @@ import pickle as pk
 
 
 df=pd.read_csv(r"C:\5th Sem\Data-Science\Datasets\heart_failure_clinical_records_dataset.csv")
-df
-
 x=df[["age"]]
 y=df[["platelets"]]
 
