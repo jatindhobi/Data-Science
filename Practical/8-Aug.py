@@ -16,4 +16,7 @@ model=LinearRegression()
 
 model.fit(x_train,y_train)
 
-model.predict([[50.0]])
+pickle_out = open("pickle_file.pkl","wb")
+
+pk.dump(model,pickle_out)
+pickle_out.close()
